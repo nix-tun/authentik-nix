@@ -50,7 +50,6 @@
     in {
       systems = [
         "x86_64-linux"
-        "aarch64-linux" # not tested
       ];
       flake = { self, ... }: {
         nixosModules.default = { pkgs, ... }: {
